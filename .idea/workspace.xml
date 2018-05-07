@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3194ec89-ce3e-4445-b525-f6af8510dc62" name="Default" comment="">
+    <list default="true" id="3194ec89-ce3e-4445-b525-f6af8510dc62" name="Default" comment="idea =&gt; .idea">
       <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -61,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+              <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -199,12 +199,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525704302189</updated>
-      <workItem from="1525704303303" duration="4000000" />
+      <workItem from="1525704303303" duration="4069000" />
     </task>
+    <task id="LOCAL-00001" summary="idea =&gt; .idea">
+      <created>1525734962473</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1525734962473</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4000000" />
+    <option name="totallyTimeSpent" value="4069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="101" y="160" width="1059" height="693" extended-state="0" />
@@ -234,6 +242,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="idea =&gt; .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea =&gt; .idea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -291,7 +303,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding />
         </state>
       </provider>
