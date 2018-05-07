@@ -1,0 +1,14 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "websocket-base",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "author": "kingsley",
+  "license": "ISC",
+  "dependencies": {
+    "nodejs-websocket": "^1.7.1"
+  }
+}
