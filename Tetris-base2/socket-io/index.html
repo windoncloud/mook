@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Websocket</title>
+    <script src="socket_io_2_1_0.js"></script>
 </head>
 <body>
 <h1>Echo Test</h1>
 <input id="sendTxt" type="text"/>
 <button id="sendBtn">发送</button>
-<!--<div id="recv"></div>-->
-<script type="text/javascript">
-    // var websocket = new WebSocket("ws://echo.websocket.org/");
-    var websocket = new WebSocket("ws://localhost:3000/");
+
+
+<script>
+    var socket = io('ws://localhost:3000');
     function showMessage(str, type){
         var div = document.createElement('div');
         div.innerHTML =str;
@@ -22,14 +23,11 @@
         }
         document.body.appendChild(div);
     }
-    websocket.onopen = function () {
-        console.log('websocket open');
-        // document.getElementById("recv").innerHTML = "Connected";
-        document.getElementById("sendBtn").onclick = function(){
-            var txt = document.getElementById("sendTxt").value;
-            if(txt){
-                websocket.send(txt);
-            }
+
+    document.getElementById("sendBtn").onclick = function(){
+        var txt = document.getElementById("sendTxt").value;
+        if(txt){
+            socket.emit('message', txt);
         }
     }
     websocket.onclose = function(){
@@ -42,11 +40,11 @@
         // showMessage(e.data);
         // document.getElementById("recv").innerHTML = e.data;
     }
-    // document.getElementById("sendBtn").onclick = function(){
-    //     var txt = document.getElementById("sendTxt").value;
-    //     websocket.send(txt);
-    // }
 
+    socket.on('news', function (data) {
+        console.log(data);
+        socket.emit('my other event', { my: 'data' });
+    });
 </script>
 </body>
 </html>
